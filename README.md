@@ -11,6 +11,13 @@ RevA errors:
   The only reliable fix for this might be to monitor IMON as well. Here is a capture of the second ACK pulse of an MX645 during a DECUP update. IMON is above 500mV for about 8µs.
   ![decup_mx645_second_short_imon](data/images/decup_mx645_second_short_imon.png)  
 
+  As it turns it this isn't a workaround either. While some shorts look like this  
+  ![decup_mx645_second_short_imon_1060mV](data/images/decup_mx645_second_short_imon_1060mV.png)  
+
+  Others look like this  
+  ![decup_mx645_second_short_imon_420mV](data/images/decup_mx645_second_short_imon_420mV.png)  
+  And that 420mV pulse is too short for a common LM339... now what?
+
 - TPS27S100B could use another 1µF ceramic capacitor at IN (e.g. same as at OUT)
 
 - N and P tracks are reversed  
