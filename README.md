@@ -9,7 +9,9 @@
 </picture>
 </a>
 
-RevA errors:
+The DRV8328Shield was a prototype of a shield with [DRV8328](https://www.ti.com/product/DRV8328) in [Arduino](https://www.arduino.cc/) form factor. Due to the inadequacies of the stackable headers, Arduino compatibility was abandoned and single-board solutions are now used.
+
+### Revision A errors
 - PVDD should be tied to VIN instead of 5V  
   5V is simply too low to keep the high side switched on continuously
 
